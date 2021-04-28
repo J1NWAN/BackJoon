@@ -26,6 +26,7 @@ public class exam_1065 {
 				int ten = (i / 10) % 10;
 				int one = i % 10;
 				
+				System.out.println(hun + " " + ten + " " +one);
 				if((hun - ten) == (ten - one)) {
 					cnt++;
 				}
